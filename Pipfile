@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+sklearn = "*"
+jupyterlab = "*"
+jupyter-http-over-ws = "*"
+torch = "*"
+numpy = "*"
+torchvision = "*"
+matplotlib = "*"
+python-multipart = "*"
+cuda-python = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
